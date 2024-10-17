@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark ev">
+    <a class="navbar-brand" href="#">prestigeHOMes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Rooms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Booking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="jumbotron text-center bg-light">
+    <h1 class="display-4">Welcome to Our Hotel</h1>
+    <p class="lead">Experience luxury and comfort at the best prices.</p>
+    <a href="#booking" class="btn jo btn-lg">Book Now</a>
+  </div>
+
+
+  <div class="container" id="booking">
+    <h2 class="text-center mb-4">Book Your Stay</h2>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="checkIn">Check-In Date</label>
+          <input type="date" class="form-control" id="checkIn" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="checkOut">Check-Out Date</label>
+          <input type="date" class="form-control" id="checkOut" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="guests">Number of Guests</label>
+        <select class="form-control" id="guests" required>
+          <option value="">Choose...</option>
+          <option value="1">1 Guest</option>
+          <option value="2">2 Guests</option>
+          <option value="3">3 Guests</option>
+          <option value="4">4 Guests</option>
+          <option value="5+">5+ Guests</option>
+        </select>
+      </div>
+      <button type="submit" class="btn  btn-block jo bt">Check Availability</button>
+    </form>
+  </div>
+
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Our Rooms</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./imgs/vcelc-bedroom-9951-hor-clsc.avif" class="card-img-top" alt="Room Image">
+          <div class="card-body">
+            <h5 class="card-title">Suite Room</h5>
+            <p class="card-text">6000 ₹ per night</p>
+            <a href="#" class="btn jo">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./imgs/hi-hgv-26330925-rhgmodelbedroom-1.jpg" class="card-img-top" alt="Room Image">
+          <div class="card-body">
+            <h5 class="card-title">Deluxe Room</h5>
+            <p class="card-text">4500 ₹ per night</p>
+            <a href="#" class="btn jo">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./imgs/e4e68fbbc7ee9ca22858a4e6eaa11cd8.jpg" class="card-img-top" alt="Room Image">
+          <div class="card-body">
+            <h5 class="card-title">Standard Room</h5>
+            <p class="card-text">3000 ₹ per night</p>
+            <a href="#" class="btn jo">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./imgs/DeluxeDouble_Banner.jpg" class="card-img-top" alt="Room Image">
+          <div class="card-body">
+            <h5 class="card-title">twin Bed</h5>
+            <p class="card-text">3500 ₹ per night</p>
+            <a href="#" class="btn jo">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./imgs/lasjw-suite-0084-hor-clsc.avif" class="card-img-top" alt="Room Image">
+          <div class="card-body">
+            <h5 class="card-title">standard</h5>
+            <p class="card-text">2600 ₹ per night</p>
+            <a href="#" class="btn jo">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./imgs/8cd9d2f34ee6b3303610248fcd2cea88.jpg" class="card-img-top" alt="Room Image">
+          <div class="card-body">
+            <h5 class="card-title">standard</h5>
+            <p class="card-text">2400 ₹ per night</p>
+            <a href="#" class="btn jo">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="feedback-section">
+          <h2 class="text-center">We Value Your Feedback</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="rating">Rating</label>
+              <div id="rating" class="star-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="comments">Comments</label>
+              <textarea class="form-control" id="comments" rows="4" placeholder="Leave your comments here"></textarea>
+            </div>
+            <button type="submit" class="btn jo btn-block">Submit Feedback</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5" id="customer-feedback">
+    <h2 class="text-center mb-4" style="color: #07060088;">Customer Feedback</h2>
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <div class="card feedback-card text-center">
+          <img src="./imgs/05-12-21-happy-people.jpg" class="card-img-top rounded-circle customer-photo mx-auto mt-3"
+            alt="Customer Photo">
+          <div class="card-body">
+            <h5 class="card-title">John Doe</h5>
+            <p class="card-text">"Had a fantastic stay! The rooms were clean, and the service was exceptional!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card feedback-card text-center">
+          <img src="./imgs/403cfdfe1628678449e4b1ec3351655a_hd.jpg"
+            class="card-img-top rounded-circle customer-photo mx-auto mt-3" alt="Customer Photo">
+          <div class="card-body">
+            <h5 class="card-title">Jane Smith</h5>
+            <p class="card-text">"Loved the ambiance and the hospitality. Will definitely visit again!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card feedback-card text-center">
+          <img src="./imgs/It9Rrm02rE20.jpg" class="card-img-top rounded-circle customer-photo mx-auto mt-3"
+            alt="Customer Photo">
+          <div class="card-body">
+            <h5 class="card-title">Michael Johnson</h5>
+            <p class="card-text">"Great value for money. The location was perfect, and the staff were friendly."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="ed text-white text-center py-3">
+    <p>&copy; 2024 HotelBooking. All Rights Reserved.</p>
+  </footer>
+
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background: url('./imgs/woman-jumps-on-the-bed-as-if-in-flight.webp') no-repeat center center;
+    background-size: cover;
+    
+    color: white;
+    padding: 100px 25px;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn-lg {
+    margin-top: 20px;
+}
+
+.card {
+    transition: transform 0.2s;
+    size: 40000px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #222;
+    color: #aaa;
+}
+.ev{
+    background-color: #55985dbb;
+    
+}
+.bt{
+    
+    color: aliceblue;
+}
+
+
+
+.feedback-section {
+    background-color: #f8f9fa; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.feedback-section h2 {
+    color: #343a40; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.star-rating i {
+    color: #ff9800; 
+    cursor: pointer; 
+    margin-right: 5px;
+}
+
+.star-rating i:hover,
+.star-rating i.active {
+    color: #ff5722; 
+}
+
+.feedback-section .form-control:focus {
+    border-color: #007bff; 
+    box-shadow: none; 
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
+
+
+#customer-feedback {
+    background-color: #ffffff56;
+    padding: 30px;
+    border-radius: 10px;
+    color: #e0e0e0;
+}
+
+#customer-feedback .feedback-card {
+    background-color: #e0e6e0;
+    border: none;
+    color: #e0e0e0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#customer-feedback .feedback-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+#customer-feedback .customer-photo {
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    
+}
+
+#customer-feedback .card-title {
+    color: #0e0e0d;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#customer-feedback .card-text {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+}
+.ed{
+    background-color: #456e48;
+}
+.jo{
+    background-color: #539157;
+    color: #fdfffd;
+}
+
+
